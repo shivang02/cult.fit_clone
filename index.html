@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Get Fitness Workouts, Gyms, Health Care, & Healthy Food in India by Cult.fit</title>
 </head>
 
@@ -12,7 +13,7 @@
     <div id="root">
         <div class="navbar">
             <div class="container-wrapper">
-                <div class="row align-center">
+                <div class="align-center">
                     <div class="icon-container">
                         <a href="#">
                             <div class="icon-image-container">
@@ -74,18 +75,18 @@
                     <div class="user-detail-container">
                         <div class="user-detail-item">
                             <img src="https://static.cure.fit/assets/images/cart-image.svg" alt="cart-icon"
-                                class="user-detail-item-image" loading="lazy">
+                                class="user-detail-item-image cart-icon" loading="lazy">
                             <!-- <span class="user-detail-item-text cart-text">Cart</span> -->
                         </div>
                         <div class="user-detail-item">
-                            <img src="https://static.cure.fit/assets/images/user-image.svg" alt="notification-icon"
-                                class="user-detail-item-image" loading="lazy">
+                            <img src="https://static.cure.fit/assets/images/user-image.svg" alt="user-image"
+                                class="user-detail-item-image user-image" loading="lazy">
                             <span clas="user-detail-item-text login-text">Login</span>
                         </div>
                         <div class="user-detail-item">
-                            <img src="https://static.cure.fit/assets/images/notification-icon.svg"
-                                alt="notification-icon" class="user-detail-item-image" loading="lazy">
-                            <span class="user-detail-item-text location-text">Delhi</span>
+                            <div class="location-icon-container">
+                            </div>
+                            <span class="user-detail-item-text location-text">Delhi NCR</span>
                         </div>
                     </div>
                 </div>
@@ -93,18 +94,19 @@
         </div>
         <div class="main-container">
             <div class="section">
-                <div class="section-content-holder" id="sec-1">
+                <div class="section-content-holder hero-section" id="sec-1">
                     <div class="content">
                         <div class="content-heading">
-                            <p class="heading-text">For The</p>
-                            <p class="heading-flipper">
-                                <span>fun</span>
-                                <span>love</span>
-                                <span>ease</span>
-                            </p>
-                            <p class="heading-text">
+                            <div class="heading-text heading-1">For the
+                                <div class="heading-flipper">
+                                    <span>fun</span>
+                                    <span>love</span>
+                                    <span>ease</span>
+                                </div>
+                            </div>
+                            <div class="heading-text heading-2">
                                 of fit.
-                            </p>
+                            </div>
                         </div>
                         <div class="content-sub-text">
                             At cult.fit, we strive to keep you fit & healthy through a range of holistic offerings that include fitness and yoga,
@@ -119,25 +121,27 @@
                                 type="video/mp4">
                                 Your browser does not support the video tag.
                         </video>
-                        <div class=" css-lwgzx3-ImageContainer efaomd30">
-                            <div class="css-1wv0rpp-LoadingElement efaomd32"></div><img
+                        <div class="mute-button-container">
+                            <img
                                 src="https://static.cure.fit/assets/images/volume-off-outline.svg" alt="mute/unmute"
-                                class="mute" loading="lazy">
+                                class="mute-button" loading="lazy">
                         </div>
                     </div>
                 </div>
             </div>
             <div class="section">
-                <div class="section-content-holder" id="sec-2">
+                <a href="#sec-4" class="explore-link">
+                <div class="section-content-holder banner-section" id="sec-2">
                     <img 
                         src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440,ar_1360:400/dpr_2/image/vm/1cf3aab3-c469-4c33-b743-88cecb9948e0.png"
                         alt="" 
                         class="full-length-image-banner" 
                         loading="eager">
+                </a>
                 </div>
             </div>
             <div class="section">
-                <div class="section-content-holder" id="sec-3">
+                <div class="section-content-holder accordian-section" id="sec-3">
                     <div class="section-heading">
                         <img
                             src="https://static.cure.fit/assets/images/live-brand.svg" 
@@ -146,14 +150,13 @@
                             loading="lazy">
                     </div>
                     <div class="section-subheading">
-                        <div class="section-subheading-text">At-home health &amp; fitness made easy
-                            <a href="#" class="explore-button">
-                                <span>Explore</span>
-                                <img
-                                    src="https://static.cure.fit/assets/images/back-arrow-pink.svg" alt="Go back"
-                                    class="explore-arrow">
-                            </a>
-                        </div>
+                        <div class="section-subheading-text">At-home health &amp; fitness made easy</div>
+                        <a href="#" class="explore-button">
+                            <span>Explore</span>
+                            <img
+                                src="https://static.cure.fit/assets/images/back-arrow-pink.svg" alt="Go back"
+                                class="explore-arrow-image">
+                        </a>
                     </div>
                     <div class="section-description">
                         Get fit and stay healthy from the comfort of your home with live workouts
@@ -211,20 +214,20 @@
                 </div>
             </div>
             <div class="section">
-                <div class="section-content-holder" id="sec-4">
+                <div class="section-content-holder accordian-section " id="sec-4">
                     <div class="section-heading">
                         <img src="https://static.cure.fit/assets/images/cult-brand.svg" alt="title-img"
                             class="section-heading-image" loading="lazy">
                     </div>
                     <div class="section-subheading">
                         <div class="section-subheading-text">
-                            Makes fitness fun and easy
+                            Makes fitness fun and easy</div>
                             <a href="#" class="explore-button">
                                 <span>Explore</span>
                                 <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" alt="Go back"
-                                    class="explore-arrow">
+                                    class="explore-arrow-image">
                             </a>
-                        </div>
+                        
                     </div>
                     <div class="section-description">
                         Try our fun group classes at our cult centers or work out at best-in-class gyms
@@ -285,19 +288,19 @@
                 </div>
             </div>
             <div class="section">
-                <div class="section-content-holder" id="sec-5">
+                <div class="section-content-holder accordian-section" id="sec-5">
                     <div class="section-heading">
                         <img src="https://static.cure.fit/assets/images/cult-sports.svg" alt="title-img"
                             class="section-heading-image" loading="lazy">
                     </div>
                     <div class="section-subheading">
-                        <div class="section-subheading-text">Collection of premium athleisure wear
+                        <div class="section-subheading-text">Collection of premium athleisure wear</div>
                             <a href="#" class="explore-button">
                                 <span>Explore</span>
                                 <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" alt="Go back"
-                                    class="explore-arrow">
+                                    class="explore-arrow-image">
                             </a>
-                        </div>
+                        
                     </div>
                     <div class="section-description">
                         Browse through our collection to help you ace your workouts in style
@@ -355,19 +358,19 @@
                 </div>
             </div>
             <div class="section">
-                <div class="section-content-holder" id="sec-6">
+                <div class="section-content-holder accordian-section" id="sec-6">
                     <div class="section-heading">
                         <img src="https://static.cure.fit/assets/images/care-title.svg" alt="title-img"
                             class="section-heading-image" loading="lazy">
                     </div>
                     <div class="section-subheading">
-                        <div class="section-subheading-text">Making health easy and accessible
+                        <div class="section-subheading-text">Making health easy and accessible</div>
                             <a href="#" class="explore-button">
                                 <span>Explore</span>
                                 <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" alt="Go back"
-                                    class="explore-arrow">
+                                    class="explore-arrow-image">
                             </a>
-                        </div>
+                        
                     </div>
                     <div class="section-description">
                         Book online doctor consultations and schedule diagnostic tests at home.
@@ -428,19 +431,19 @@
                 </div>
             </div>
             <div class="section">
-                <div class="section-content-holder" id="sec-7">
+                <div class="section-content-holder accordian-section" id="sec-7">
                     <div class="section-heading">
                         <img src="https://static.cure.fit/assets/images/mind-title.svg" alt="title-img"
                             class="section-heading-image" loading="lazy">
                     </div>
                     <div class="section-subheading">
-                        <div class="section-subheading-text">Mind and Body fitness
+                        <div class="section-subheading-text">Mind and Body fitness</div>
                             <a href="#" class="explore-button">
                                 <span>Explore</span>
                                 <img src="https://static.cure.fit/assets/images/back-arrow-pink.svg" alt="Go back"
-                                    class="explore-arrow">
+                                    class="explore-arrow-image">
                             </a>
-                        </div>
+                        
                     </div>
                     <div class="section-description">
                         Experience mindfulness with our guided yoga, meditation & therapy sessions.
@@ -498,7 +501,7 @@
                 </div>
             </div>
             <div class="section">
-                <div class="section-content-holder" id="sec-8">
+                <div class="section-content-holder store-section" id="sec-8">
                     <div class="section-text-container" >
                         <div class="section-text-title">
                         </div>
@@ -527,19 +530,19 @@
 
             </div>
             <div class="section">
-                <div class="section-content-holder" id="sec-9">
+                <div class="section-content-holder business-section" id="sec-9">
                     <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,c_fit/dpr_2/image/clp/business-cult.png"
                         alt="Career Image" class="section-wide-image" loading="lazy">
                 </div>
             </div>
             <div class="section">
-                <div class="section-content-holder" id="sec-10">
+                <div class="section-content-holder career-section" id="sec-10">
                     <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,c_fit/dpr_2/image/clp/careers-cult.png"
                         alt="Career Image" class="section-wide-image" loading="lazy">
                 </div>
             </div>
             <div class="section">
-                <div class="section-content-holder" id="sec-11">
+                <div class="section-content-holder motto-section" id="sec-11">
                     <div class="css-kj87n9-WidgetWrapperDiv eomc2jz1">
                         <div font-size="100" color="#6e6e6e" class="slogan-text-primary">BE BETTER</div>
                         <div font-size="80" color="#b2b2b2" class="slogan-text-secondary">EVERYDAY</div>
