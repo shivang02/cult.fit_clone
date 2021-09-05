@@ -212,6 +212,7 @@ ul {
     flex-direction: column;
     align-items: center;
     width: -webkit-fill-available;
+    width: -moz-available;
 }
 
 .section {
@@ -222,6 +223,7 @@ ul {
     width: -moz-available;          
     width: -webkit-fill-available;  
     width: fill-available;
+    width: -moz-available;
 }
 
 .section-content-holder:first-child{
@@ -339,6 +341,7 @@ ul {
 
 .full-length-image-banner {
     width: -webkit-fill-available;
+    width: -moz-available;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -619,11 +622,23 @@ ul {
 .business-section-parent {
     margin: 0;
     padding: 0;
+    width: -webkit-fill-available;
+    width: -moz-available;
+}
+
+.business-section, .career-section {
+    width: -webkit-fill-available;
+    width: -moz-available;
 }
 
 .career-section-parent {
     margin: 0;
     padding: 0;
+}
+
+.section-wide-image {
+    width: -webkit-fill-available;
+    width: -moz-available;
 }
 
 .motto-section-parent {
