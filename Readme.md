@@ -1,6 +1,6 @@
 <h1 align="center">
 <br>
-<a href="https://github.com/shivang02/FaceMouse"><img src="https://static.cure.fit/assets/images/curefit-v-man.svg" alt="Face Mouse Logo" width="200" style= "background-color: white"></a>
+<a href="https://github.com/shivang02/cult.fit_clone"><img src="https://static.cure.fit/assets/images/curefit-v-man.svg" alt="Face Mouse Logo" width="200" style= "background-color: white"></a>
 <br>
   cult.fit <i>clone</i>
   <br>
